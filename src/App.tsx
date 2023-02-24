@@ -5,7 +5,10 @@ import "./App.css";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header" style={{ backgroundColor: "blue" }}>
+            <header
+                className="App-header"
+                style={{ backgroundColor: "purple" }}
+            >
                 Annanya CISC275 with React Hooks and TypeScript
             </header>
             <Container>
@@ -13,10 +16,10 @@ function App(): JSX.Element {
                     <Col>
                         <h1>An ABC Show</h1>
                         <img
-                            src="https://cdn.britannica.com/82/198682-050-0EB80673/cast-Greys-Anatomy.jpg"
+                            src="https://play-lh.googleusercontent.com/fkgmfxSRsQSqmKFCiEG5nsToBWUVaNqNZ64UQZVIU7ODHXpmT2Zpvuhw3CDfG2gfq3vn9eTrA3W3dvnp9Kg"
                             alt="Greys Anatomy"
                         />
-                        Top Three TV Shows:
+                        <li> My Top Three TV Shows:</li>
                         <ol>
                             <li>Greys Anatomy</li>
                             <li>You</li>
